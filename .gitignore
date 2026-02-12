@@ -1,14 +1,40 @@
-# Ignora tudo
-*
+# Dependências
+node_modules/
 
-# Mas não ignora o próprio .gitignore
-!.gitignore
+# Build
+dist/
 
-# Não ignore a pasta build
-!dist/
+# Variáveis de ambiente
+.env
 
-# Opcional: não ignore os arquivos dentro de build
-!dist/**/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# # Ignora tudo
+# *
+
+# # Mas não ignora o próprio .gitignore
+# !.gitignore
+
+# # Não ignore a pasta build
+# !dist/
+
+# # Opcional: não ignore os arquivos dentro de build
+# !dist/**/*
 
 
 
